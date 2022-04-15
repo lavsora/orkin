@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import LangContextWrapper from '../components/context/langContext';
 import NavMenu from '../components/NavMenu'
 import Footer from '../components/Footer'
+import Head from 'next/head';
 
 function MyApp({ Component, pageProps }) {
   React.useEffect(() => {
@@ -14,9 +15,11 @@ function MyApp({ Component, pageProps }) {
     }
   }, []);
 
-
   return (
     <>
+      <Head>
+        <link rel="shortcut icon" href= '../public/favicon.ico' />
+      </Head>
       <LangContextWrapper>
         <NavMenu/>
         <Component {...pageProps} />
