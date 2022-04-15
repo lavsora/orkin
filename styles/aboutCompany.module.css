@@ -1,0 +1,90 @@
+.first_jumbo{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../public/img/aboutCompany.jpg');
+    color: white;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    text-align: center;
+    height: 450px;
+    padding: 165px 15% 0;
+    margin-bottom: 0;
+}
+.first_jumbo p{
+    font-size: xx-large;
+}
+.second_jumbo{
+    text-align: center;
+    background-color: #F8F9FA;
+    margin-bottom: 0;
+}
+.third_jumbo{
+    background: url('../public/img/aboutCompany2.jpg');
+    color: white;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    margin-bottom: 0;
+}
+.fourth_jumbo{
+    text-align: center;
+    background-color: #F8F9FA;
+    margin-bottom: 0;
+}
+.new-line {
+    white-space: pre-line;
+  }
+
+@media only screen and (max-width: 769px){
+    .first_jumbo{
+        padding: 130px 0 0;
+        background-position: 70%;
+    }
+    .first_jumbo h1{
+        font-size: 2.1rem;
+    }
+    .second_jumbo h2{
+        font-size: 2.1rem;
+    }
+}
+
+@media only screen and (max-width: 426px){
+    .first_jumbo{
+        background-position: 75%;
+    }
+    .second_jumbo h2{
+        font-size: 1.6rem;
+    }
+    .second_jumbo p{
+        font-size: 1.2rem;
+    }
+    .third_jumbo{
+        background-position: 55%;
+    }
+    .third_jumbo p{
+        font-size: 1rem;
+    }
+    .fourth_jumbo h2{
+        font-size: 1.6rem;
+    }
+    .fourth_jumbo p{
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 376px){
+    .first_jumbo h1{
+        font-size: 1.6rem;
+    }
+    .second_jumbo h2{
+        font-size: 1.4rem;
+    }
+    .second_jumbo p{
+        font-size: 1rem;
+    }
+    .fourth_jumbo h2{
+        font-size: 1.4rem;
+    }
+    .fourth_jumbo p{
+        font-size: 1rem;
+    }
+}

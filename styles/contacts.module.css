@@ -1,0 +1,45 @@
+.first_jumbo_contacts{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../public/img/contacts.jpg');
+    color: white;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    text-align: center;
+    height: 450px;
+    padding: 165px 15% 0;
+    margin-bottom: 0;
+}
+.first_jumbo_contacts p{
+    font-size: xx-large;
+}
+.second_jumbo_contacts{
+    margin-bottom: 0;
+}
+.second_jumbo_contacts a{
+    text-decoration: none;
+    color: black;
+}
+.third_jumbo_contacts{
+    background-color: #F8F9FA;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 769px){
+    .first_jumbo_contacts h1{
+        font-size: 2.1rem;
+    }
+}
+@media only screen and (max-width: 426px){
+    .first_jumbo_contacts{
+        padding: 120px 0 0;
+    }
+    
+}
+@media only screen and (max-width: 376px){
+    .first_jumbo_contacts{
+        background-position: 65%;
+    }
+    .first_jumbo_contacts h1{
+        font-size: 1.6rem;
+    }
+}

@@ -1,0 +1,19 @@
+@media (min-width: 576px) {
+  .switchButton {
+    position: absolute;
+  }
+}
+.nav-text > a {
+  text-decoration: none;
+  margin: 8px;
+  transition: ease-out 70ms;
+}
+.nav-text > a:hover {
+  transform: scale(1.1);
+}
+.nav-text-light > a {
+  color: white;
+}
+.nav-text-dark > a {
+  color: black;
+}

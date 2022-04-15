@@ -1,0 +1,30 @@
+.jumbo_contact{
+    background: url('../public/img/footer-contact-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    color: white;
+    margin-bottom: 0;
+}
+.jumbo_contact p a{
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 426px){
+    .row_contact{
+        flex-direction: column;
+    }
+    .jumbo_contact{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 376px){
+    .jumbo_contact h3{
+        font-size: 1.4rem;
+    }
+    .jumbo_contact p{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,105 @@
+.first_jumbo_services{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../public/img/ourServices.jpg');
+    color: white;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    text-align: center;
+    height: 450px;
+    padding: 165px 15% 0;
+    margin-bottom: 0;
+}
+.first_jumbo_services p{
+    font-size: xx-large;
+}
+.second_jumbo_services{
+    text-align: center;
+    background-color: #F8F9FA;
+    margin-bottom: 0;
+}
+.third_jumbo_services{
+    text-align: center;
+    margin-bottom: 0;
+}
+.fourth_jumbo_services{
+    text-align: center;
+    background-color: #F8F9FA;
+    margin-bottom: 0;
+}
+.fifth_jumbo_services{
+    text-align: center;
+    margin-bottom: 0;
+}
+.new-line {
+    white-space: pre-line;
+  }
+
+@media only screen and (max-width: 769px){
+    .first_jumbo_services{
+        padding: 130px 0 0;
+        background-position: 70%;
+    }
+    .first_jumbo_services h1{
+        font-size: 2.1rem;
+    }
+    .second_jumbo_services h2{
+        font-size: 2.1rem;
+    }
+}
+
+@media only screen and (max-width: 426px){
+    .first_jumbo_services{
+        background-position: 25%;
+    }
+    .second_jumbo_services h2{
+        font-size: 1.6rem;
+    }
+    .second_jumbo_services p{
+        font-size: 1.2rem;
+    }
+    .third_jumbo_services{
+        background-position: 55%;
+    }
+    .third_jumbo_services p{
+        font-size: 1rem;
+    }
+    .third_jumbo_services h3{
+        font-size: 1.4rem;
+    }
+    .fourth_jumbo_services h2{
+        font-size: 1.6rem;
+    }
+    .fourth_jumbo_services p{
+        font-size: 1.2rem;
+    }
+    .fourth_jumbo_services h3{
+        font-size: 1.4rem;
+    }
+    .fifth_jumbo_services p{
+        font-size: 1.2rem;
+    }
+    .fifth_jumbo_services h2{
+        font-size: 1.6rem;
+    }
+    .row_contact{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 376px){
+    .first_jumbo_services h1{
+        font-size: 1.6rem;
+    }
+    .second_jumbo_services h2{
+        font-size: 1.4rem;
+    }
+    .second_jumbo_services p{
+        font-size: 1rem;
+    }
+    .fourth_jumbo_services h2{
+        font-size: 1.4rem;
+    }
+    .fourth_jumbo_services p{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 120px;
+    background-color: #999b9e;
+    color: white;
+}
+.nav_footer{
+    margin: 10px;
+}
+.nav_footer a{
+    text-decoration: none;
+    color: white;
+    border-right: 2px solid;
+    padding: 0px 8px 0px 8px;
+}
+.nav_footer a:last-child{
+    border: none;
+}

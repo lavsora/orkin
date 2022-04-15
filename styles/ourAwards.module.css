@@ -1,0 +1,70 @@
+.first_jumbo_awards{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../public/img/ourAwards.jpg');
+    color: white;
+    background-size: cover;
+    background-position: 90% top;
+    position: relative;
+    text-align: center;
+    height: 450px;
+    padding: 190px 15% 0;
+    margin-bottom: 0;
+}
+.first_jumbo_awards p{
+    font-size: xx-large;
+}
+.second_jumbo_awards{
+    background-color: #F8F9FA;
+    margin-bottom: 0;
+}
+.text_container{
+    text-align: center;
+    margin-bottom: 4rem;
+    background-color: #e7e8e9;
+}
+.text_container h1{
+    color: red;
+}
+@media only screen and (max-width: 769px){
+    .img_size_hor{
+        height: 286px;
+    }
+    .img_size_ver{
+        height: 370px;
+    }
+}
+@media only screen and (max-width: 426px){
+    .img_size_hor{
+        height: 246px;
+    }
+    .text_container h1{
+        font-size: 1.6rem;
+    }
+    .second_jumbo_awards p{
+        font-size: 1.2rem;
+    }
+    .img_size_ver{
+        height: 350px;
+    }
+    .row_contact{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 376px){
+    .img_size_hor{
+        height: 226px;
+    }
+    .img_size_ver{
+        height: 330px;
+    }
+}
+@media only screen and (max-width: 321px){
+    .img_size_hor{
+        height: 196px;
+    }
+    .second_jumbo_awards p{
+        font-size: 1rem;
+    }
+    .img_size_ver{
+        height: 310px;
+    }
+}

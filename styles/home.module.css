@@ -1,0 +1,64 @@
+@keyframes example {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.style {
+  animation-name: example;
+  animation-duration: 7s;
+  margin-top: 100px;
+}
+
+.style_margin{
+margin-top: 70px;
+}
+.style_margin_btn{
+margin-top: 100px;
+}
+.jumbo_home_color{
+  background-color: #F8F9FA;
+}
+
+@media only screen and (max-width: 1025px){
+  .style{
+    margin-top: 100px;
+  }
+  .style_margin{
+    margin-top: 50px;
+  }
+  .style_margin_btn{
+    margin-top: 90px;
+  }
+}
+
+@media only screen and (max-width: 376px){
+.style{
+  margin-top: 70px;
+}
+.jumbo_home h3{
+  font-size: 1.5rem;
+}
+.jumbo_home h4{
+  font-size: 1.3rem;
+}
+.jumbo_contact p{
+  font-size: 1rem;
+}
+.style_margin{
+  margin-top: 40px;
+}
+.style_margin_btn{
+  margin-top: 70px;
+}
+}
+@media only screen and (max-width: 321px){
+.style{
+  margin-top: 50px;
+}
+.style_margin{
+  margin-top: 20px;
+}
+.style_margin_btn{
+  margin-top: 50px;
+}
+}
